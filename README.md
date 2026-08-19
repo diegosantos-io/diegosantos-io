@@ -1,18 +1,23 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0D1117,50:161B22,100:21262D&text=DIEGO%20SANTOS&fontSize=55&fontColor=58A6FF&fontAlignY=38&desc=FULL%20STACK%20DEVELOPER%20%7C%20PYTHON%20%7C%20FASTAPI%20%7C%20REACT&descAlignY=60&descSize=16&animation=twinkling" width="100%"/>
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    SYSTEM INITIALIZATION                    -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:05080D,50:0D1117,100:111827&text=DIEGO%20SANTOS&fontSize=58&fontColor=00E5FF&fontAlignY=38&desc=FULL%20STACK%20DEVELOPER%20%7C%20PYTHON%20%7C%20FASTAPI%20%7C%20REACT&descAlignY=61&descSize=16&animation=twinkling" width="100%"/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=850&lines=INITIALIZING+DEVELOPER+PROFILE...;SYSTEM+ONLINE+%E2%9C%93;PYTHON+%7C+FASTAPI+%7C+REACT+%7C+POSTGRESQL;BUILDING+REAL+WORLD+PROJECTS...;WELCOME+TO+MY+GITHUB+%F0%9F%91%8B" alt="Typing Animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=850&lines=INITIALIZING+DEVELOPER+PROFILE...;SYSTEM+ONLINE+%E2%9C%93;PYTHON+%7C+FASTAPI+%7C+REACT+%7C+POSTGRESQL;BUILDING+REAL+WORLD+PROJECTS...;WELCOME+TO+MY+GITHUB+%F0%9F%91%8B" alt="Typing Animation"/>
 
 <br>
 
-<img src="https://img.shields.io/badge/SYSTEM-ONLINE-238636?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/SYSTEM-ONLINE-00E5FF?style=for-the-badge&logo=github&logoColor=black"/>
 <img src="https://img.shields.io/badge/FOCUS-FULL%20STACK-58A6FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/STATUS-BUILDING-8957E5?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/STATUS-BUILDING-8B5CF6?style=for-the-badge"/>
 
 </div>
+
 
 ---
 
