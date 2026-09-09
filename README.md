@@ -1,7 +1,9 @@
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════ -->
+
 <!--                    SYSTEM INITIALIZATION                    -->
+
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:05080D,50:0D1117,100:111827&text=DIEGO%20SANTOS&fontSize=58&fontColor=00E5FF&fontAlignY=38&desc=FULL%20STACK%20DEVELOPER%20%7C%20PYTHON%20%7C%20FASTAPI%20%7C%20REACT&descAlignY=61&descSize=16&animation=twinkling" width="100%"/>
@@ -17,7 +19,6 @@
 <img src="https://img.shields.io/badge/STATUS-BUILDING-8B5CF6?style=for-the-badge"/>
 
 </div>
-
 
 ---
 
@@ -41,9 +42,11 @@
 
 Olá! Eu sou **Diego Santos**, estudante de **Ciência da Computação** e desenvolvedor apaixonado por tecnologia, programação e criação de sistemas.
 
-Atualmente estou focado em transformar conhecimento em **projetos reais**, trabalhando principalmente com **Python, FastAPI, React, JavaScript, HTML, CSS e PostgreSQL**.
+Meu foco é transformar conhecimento em **projetos reais**, trabalhando principalmente com **Python, FastAPI, React, JavaScript, HTML, CSS e PostgreSQL**.
 
-Gosto de entender como as aplicações funcionam por trás das interfaces, desde a construção de APIs e regras de negócio até bancos de dados e interfaces web.
+Gosto de entender como as aplicações funcionam por trás das interfaces, desde a construção de APIs e regras de negócio até bancos de dados, autenticação, testes e interfaces web.
+
+Atualmente estou desenvolvendo projetos com foco em **Full Stack Development**, buscando evoluir constantemente minhas habilidades técnicas e construir aplicações cada vez mais completas e profissionais.
 
 > `CODE → LEARN → BUILD → IMPROVE → REPEAT`
 
@@ -73,7 +76,7 @@ Gosto de entender como as aplicações funcionam por trás das interfaces, desde
 
 ### 🔧 Development Tools
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,docker" />
 
 </div>
 
@@ -88,6 +91,7 @@ Gosto de entender como as aplicações funcionam por trás das interfaces, desde
 <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
 <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
 <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 
 </div>
 
@@ -107,44 +111,142 @@ Gosto de entender como as aplicações funcionam por trás das interfaces, desde
 
 ## 👥 Sistema de Gerenciamento de Clientes
 
-**API REST para gerenciamento de clientes**, desenvolvida com Python e FastAPI.
+**Aplicação Full Stack para gerenciamento de clientes**, desenvolvida com **React, Python, FastAPI e PostgreSQL**.
+
+O projeto foi desenvolvido com foco em boas práticas de desenvolvimento, organização de código, autenticação, validação, testes automatizados e integração entre frontend e backend.
 
 ### 🧰 Stack
 
 ```text
+Frontend
+React
+JavaScript
+HTML
+CSS
+
+Backend
 Python
 FastAPI
-PostgreSQL
 SQLAlchemy
 Pydantic
-Uvicorn
+
+Database
+PostgreSQL
+Alembic
+
+Security
+JWT
+bcrypt
+
+Infrastructure
+Docker
+Docker Compose
+
+Testing
+Pytest
 ```
 
 ### ⚙️ Funcionalidades
 
 ```text
-[✓] Criar cliente
+[✓] Cadastro de usuários
+[✓] Login com autenticação JWT
+[✓] Proteção de rotas
+[✓] Senhas protegidas com bcrypt
+[✓] Criar clientes
 [✓] Listar clientes
 [✓] Buscar cliente por ID
-[✓] Atualizar cliente
-[✓] Deletar cliente
+[✓] Atualizar clientes
+[✓] Deletar clientes
+[✓] Busca por nome, e-mail e telefone
+[✓] Paginação
 [✓] Validação de dados
-[✓] Tratamento de erros
+[✓] Tratamento centralizado de erros
 [✓] Prevenção de e-mails duplicados
+[✓] Persistência de sessão
+[✓] Interface responsiva
 [✓] Documentação Swagger
+[✓] Migrações com Alembic
+[✓] Docker
+[✓] 29 testes automatizados
 ```
 
 ### 📡 API
 
 ```text
+POST    /usuarios/
+POST    /usuarios/login
+
 GET     /clientes/
 POST    /clientes/
 GET     /clientes/{id}
 PUT     /clientes/{id}
 DELETE  /clientes/{id}
+
+GET     /health
 ```
 
-> 🚧 Projeto em desenvolvimento — novas funcionalidades serão adicionadas conforme minha evolução.
+### 🏗️ Arquitetura
+
+```text
+                    ┌──────────────────┐
+                    │      REACT       │
+                    │    Frontend      │
+                    └────────┬─────────┘
+                             │
+                         HTTP / JSON
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │     FASTAPI      │
+                    │     Backend      │
+                    └────────┬─────────┘
+                             │
+                 ┌───────────┴───────────┐
+                 │                       │
+                 ▼                       ▼
+          ┌─────────────┐         ┌─────────────┐
+          │     JWT     │         │   Services  │
+          │    Auth     │         │  Business   │
+          └─────────────┘         │    Logic    │
+                                  └──────┬──────┘
+                                         │
+                                         ▼
+                                  ┌─────────────┐
+                                  │ SQLAlchemy  │
+                                  └──────┬──────┘
+                                         │
+                                         ▼
+                                  ┌─────────────┐
+                                  │ PostgreSQL  │
+                                  └─────────────┘
+```
+
+### 🧪 Testes
+
+O projeto possui **29 testes automatizados**, cobrindo funcionalidades e validações da API.
+
+```text
+============================= test session =============================
+
+29 passed
+
+============================= STATUS: PASS =============================
+```
+
+### 🐳 Infraestrutura
+
+O ambiente pode ser executado utilizando **Docker Compose**, com containers separados para a API e o banco de dados PostgreSQL.
+
+```text
+Docker Compose
+     │
+     ├── API
+     │    └── FastAPI
+     │
+     └── Database
+          └── PostgreSQL
+```
 
 <div align="center">
 
@@ -165,14 +267,16 @@ DELETE  /clientes/{id}
 │                                                              │
 │  ● developer.service - ACTIVE                                │
 │                                                              │
-│  [✓] Improve Python                                          │
+│  [✓] Learn Python                                            │
 │  [✓] Build REST APIs                                         │
 │  [✓] Work with PostgreSQL                                    │
 │  [✓] Build Full Stack Projects                               │
-│  [ ] Master React                                             │
-│  [ ] Learn Docker                                             │
-│  [ ] Implement Authentication                                 │
-│  [ ] Deploy Production Applications                           │
+│  [✓] Implement Authentication                                │
+│  [✓] Work with Docker                                        │
+│  [✓] Write Automated Tests                                   │
+│  [ ] Deploy Production Applications                          │
+│  [ ] Improve Advanced React                                  │
+│  [ ] Build More Production-Ready Systems                     │
 │                                                              │
 │  STATUS: CONSTANTLY EVOLVING                                 │
 │                                                              │
@@ -254,13 +358,13 @@ DELETE  /clientes/{id}
 ```text
 ┌─────────────────────────────────────────────────────┐
 │                                                     │
-│   Thanks for accessing my developer profile.        │
+│   Thanks for accessing my developer profile.       │
 │                                                     │
-│   Every project is another step forward.            │
-│   Every bug is another lesson.                      │
-│   Every line of code is part of the journey.        │
+│   Every project is another step forward.           │
+│   Every bug is another lesson.                     │
+│   Every line of code is part of the journey.       │
 │                                                     │
-│   SYSTEM STATUS: ONLINE ✓                           │
+│   SYSTEM STATUS: ONLINE ✓                          │
 │                                                     │
 └─────────────────────────────────────────────────────┘
 ```
