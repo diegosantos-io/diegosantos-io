@@ -6,11 +6,11 @@
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:05080D,50:0D1117,100:111827&text=DIEGO%20SANTOS&fontSize=58&fontColor=00E5FF&fontAlignY=38&desc=FULL%20STACK%20DEVELOPER%20%7C%20PYTHON%20%7C%20FASTAPI%20%7C%20REACT&descAlignY=61&descSize=16&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:05080D,50:0D1117,100:111827&text=DIEGO%20SANTOS&fontSize=58&fontColor=00E5FF&fontAlignY=38&desc=COMPUTER%20SCIENCE%20STUDENT%20%7C%20FULL%20STACK%20DEVELOPER&descAlignY=61&descSize=16&animation=twinkling" width="100%"/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=850&lines=INITIALIZING+DEVELOPER+PROFILE...;SYSTEM+ONLINE+%E2%9C%93;PYTHON+%7C+FASTAPI+%7C+REACT+%7C+POSTGRESQL;BUILDING+REAL+WORLD+PROJECTS...;WELCOME+TO+MY+GITHUB+%F0%9F%91%8B" alt="Typing Animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=850&lines=INITIALIZING+DEVELOPER+PROFILE...;SYSTEM+ONLINE+%E2%9C%93;PYTHON+%7C+FASTAPI+%7C+REACT+%7C+POSTGRESQL;BUILDING+REAL+WORLD+FULL+STACK+PROJECTS...;WELCOME+TO+MY+GITHUB+%F0%9F%91%8B" alt="Typing Animation"/>
 
 <br>
 
@@ -20,69 +20,62 @@
 
 </div>
 
----
+> whoami
 
-# `> whoami`
-
-```text
 ╔══════════════════════════════════════════════════════════════╗
 ║                    DEVELOPER PROFILE                         ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
 ║  Name       : Diego Santos                                   ║
-║  Role       : Full Stack Developer                           ║
-║  Education  : Computer Science                               ║
-║  Focus      : Backend • Frontend • APIs • Databases          ║
-║  Status     : Building & Learning                            ║
+║  Role       : Computer Science Student | Full Stack          ║
+║               Developer                                       ║
+║  Education  : Computer Science                                ║
+║  Focus      : Backend • Frontend • APIs • Databases           ║
+║  Status     : Building & Learning                             ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
-```
 
-## 🧠 Sobre Mim
+🧠 About Me
 
-Olá! Eu sou **Diego Santos**, estudante de **Ciência da Computação** e desenvolvedor apaixonado por tecnologia, programação e criação de sistemas.
+Hello! I'm Diego Santos, a Computer Science student and developer focused on building practical, real-world applications.
 
-Meu foco é transformar conhecimento em **projetos reais**, trabalhando principalmente com **Python, FastAPI, React, JavaScript, HTML, CSS e PostgreSQL**.
+My current stack includes Python, FastAPI, React, JavaScript, HTML, CSS, PostgreSQL, SQLAlchemy, JWT, Docker, and Pytest.
 
-Gosto de entender como as aplicações funcionam por trás das interfaces, desde a construção de APIs e regras de negócio até bancos de dados, autenticação, testes e interfaces web.
+I enjoy understanding how applications work end to end — from API design and business logic to databases, authentication, testing, and web interfaces.
 
-Atualmente estou desenvolvendo projetos com foco em **Full Stack Development**, buscando evoluir constantemente minhas habilidades técnicas e construir aplicações cada vez mais completas e profissionais.
+I learn by building complete projects, improving their architecture, documenting the implementation, and turning what I study into working software.
 
-> `CODE → LEARN → BUILD → IMPROVE → REPEAT`
+CODE → LEARN → BUILD → IMPROVE → REPEAT
 
----
-
-# ⚡ Tech Stack
+⚡ Tech Stack
 
 <div align="center">
 
-### 🐍 Backend
+🐍 Backend
 
 <img src="https://skillicons.dev/icons?i=python,fastapi" />
 
 <br><br>
 
-### 🌐 Frontend
+🌐 Frontend
 
 <img src="https://skillicons.dev/icons?i=html,css,javascript,react" />
 
 <br><br>
 
-### 🗄️ Database
+🗄️ Database
 
 <img src="https://skillicons.dev/icons?i=postgresql" />
 
 <br><br>
 
-### 🔧 Development Tools
+🔧 Development Tools
 
 <img src="https://skillicons.dev/icons?i=git,github,vscode,docker" />
 
 </div>
 
----
-
-# 🛠️ Ferramentas & Ambiente
+🛠️ Tools & Environment
 
 <div align="center">
 
@@ -95,29 +88,28 @@ Atualmente estou desenvolvendo projetos com foco em **Full Stack Development**, 
 
 </div>
 
----
-
-# 🚀 Projeto em Destaque
+🚀 Featured Projects
 
 <div align="center">
 
+<a href="https://github.com/diegosantos-io/helpdesk-manager">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=diegosantos-io&repo=helpdesk-manager&theme=github_dark&hide_border=true" />
+</a>
+
 <a href="https://github.com/diegosantos-io/sistema-gerenciamento-clientes">
-
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=diegosantos-io&repo=sistema-gerenciamento-clientes&theme=github_dark&hide_border=true" />
-
 </a>
 
 </div>
 
-## 👥 Sistema de Gerenciamento de Clientes
+🎫 HelpDesk Manager
 
-**Aplicação Full Stack para gerenciamento de clientes**, desenvolvida com **React, Python, FastAPI e PostgreSQL**.
+Full-stack help desk management system built with FastAPI, React, PostgreSQL, Docker, JWT, Alembic, and Pytest.
 
-O projeto foi desenvolvido com foco em boas práticas de desenvolvimento, organização de código, autenticação, validação, testes automatizados e integração entre frontend e backend.
+The application manages technical support operations through role-based access for users, technicians, and administrators.
 
-### 🧰 Stack
+🧰 Stack
 
-```text
 Frontend
 React
 JavaScript
@@ -144,71 +136,79 @@ Docker Compose
 
 Testing
 Pytest
-```
 
-### ⚙️ Funcionalidades
+⚙️ Key Features
 
-```text
-[✓] Cadastro de usuários
-[✓] Login com autenticação JWT
-[✓] Proteção de rotas
-[✓] Senhas protegidas com bcrypt
-[✓] Criar clientes
-[✓] Listar clientes
-[✓] Buscar cliente por ID
-[✓] Atualizar clientes
-[✓] Deletar clientes
-[✓] Busca por nome, e-mail e telefone
-[✓] Paginação
-[✓] Validação de dados
-[✓] Tratamento centralizado de erros
-[✓] Prevenção de e-mails duplicados
-[✓] Persistência de sessão
-[✓] Interface responsiva
-[✓] Documentação Swagger
-[✓] Migrações com Alembic
-[✓] Docker
-[✓] 29 testes automatizados
-```
+[✓] JWT authentication
+[✓] Role-based access control
+[✓] User management
+[✓] Account activation and deactivation
+[✓] Ticket creation and tracking
+[✓] Technician assignment
+[✓] Technician ticket handling
+[✓] Ticket resolution
+[✓] Ticket history
+[✓] Administrative ticket transfer
+[✓] Transfer reason tracking
+[✓] Search and filtering
+[✓] Public ticket statistics
+[✓] PostgreSQL persistence
+[✓] Alembic migrations
+[✓] Docker support
+[✓] 29 automated tests
 
-### 📡 API
+📡 Main API Routes
 
-```text
-POST    /usuarios/
-POST    /usuarios/login
+POST   /usuarios/
+POST   /usuarios/login
+GET    /usuarios/me
+GET    /usuarios/
+POST   /usuarios/admin
+PUT    /usuarios/{usuario_id}
+DELETE /usuarios/{usuario_id}
 
-GET     /clientes/
-POST    /clientes/
-GET     /clientes/{id}
-PUT     /clientes/{id}
-DELETE  /clientes/{id}
+POST   /chamados/
+GET    /chamados/
+GET    /chamados/tecnico
+GET    /chamados/publico
+GET    /chamados/{chamado_id}
+POST   /chamados/{chamado_id}/assumir
+POST   /chamados/{chamado_id}/resolver
+GET    /chamados/{chamado_id}/historico
+POST   /chamados/{chamado_id}/transferir
 
-GET     /health
-```
+🧪 Testing
 
-### 🏗️ Arquitetura
+The project currently has 29 automated tests passing, covering authentication, users, permissions, tickets, administrative operations, and ticket workflows.
 
-```text
-                    ┌──────────────────┐
-                    │      REACT       │
-                    │    Frontend      │
-                    └────────┬─────────┘
-                             │
-                         HTTP / JSON
-                             │
-                             ▼
-                    ┌──────────────────┐
-                    │     FASTAPI      │
-                    │     Backend      │
-                    └────────┬─────────┘
-                             │
-                 ┌───────────┴───────────┐
-                 │                       │
-                 ▼                       ▼
-          ┌─────────────┐         ┌─────────────┐
-          │     JWT     │         │   Services  │
-          │    Auth     │         │  Business   │
-          └─────────────┘         │    Logic    │
+============================= test session =============================
+
+29 passed
+
+============================= STATUS: PASS =============================
+
+🏗️ Architecture
+
+                     ┌──────────────────┐
+                     │      REACT       │
+                     │    Frontend      │
+                     └────────┬─────────┘
+                              │
+                           HTTP / JSON
+                              │
+                              ▼
+                     ┌──────────────────┐
+                     │     FASTAPI      │
+                     │     Backend      │
+                     └────────┬─────────┘
+                              │
+                   ┌──────────┴──────────┐
+                   │                     │
+                   ▼                     ▼
+            ┌─────────────┐       ┌─────────────┐
+            │     JWT     │       │   Services  │
+            │    Auth     │       │  Business   │
+            └─────────────┘       │    Logic    │
                                   └──────┬──────┘
                                          │
                                          ▼
@@ -220,33 +220,85 @@ GET     /health
                                   ┌─────────────┐
                                   │ PostgreSQL  │
                                   └─────────────┘
-```
 
-### 🧪 Testes
+<div align="center">
 
-O projeto possui **29 testes automatizados**, cobrindo funcionalidades e validações da API.
+<a href="https://github.com/diegosantos-io/helpdesk-manager">
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-58A6FF?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
-```text
-============================= test session =============================
+</div>
 
-29 passed
+👥 Client Management System
 
-============================= STATUS: PASS =============================
-```
+Full-stack client management application built with React, Python, FastAPI, and PostgreSQL.
 
-### 🐳 Infraestrutura
+The project evolved from a basic client CRUD API into a complete application with authentication, validation, testing, Docker, and database migrations.
 
-O ambiente pode ser executado utilizando **Docker Compose**, com containers separados para a API e o banco de dados PostgreSQL.
+🧰 Stack
 
-```text
+Frontend
+React
+JavaScript
+HTML
+CSS
+
+Backend
+Python
+FastAPI
+SQLAlchemy
+Pydantic
+
+Database
+PostgreSQL
+Alembic
+
+Security
+JWT
+bcrypt
+
+Infrastructure
+Docker
 Docker Compose
-     │
-     ├── API
-     │    └── FastAPI
-     │
-     └── Database
-          └── PostgreSQL
-```
+
+Testing
+Pytest
+
+⚙️ Key Features
+
+[✓] User registration
+[✓] JWT authentication
+[✓] Protected routes
+[✓] Password hashing with bcrypt
+[✓] Client creation
+[✓] Client listing
+[✓] Client lookup by ID
+[✓] Client updates
+[✓] Client deletion
+[✓] Search by name, email, and phone
+[✓] Pagination
+[✓] Data validation
+[✓] Centralized error handling
+[✓] Duplicate email prevention
+[✓] Session persistence
+[✓] Responsive interface
+[✓] Swagger documentation
+[✓] Alembic migrations
+[✓] Docker
+[✓] Automated tests
+
+📡 API
+
+POST    /usuarios/
+POST    /usuarios/login
+
+GET     /clientes/
+POST    /clientes/
+GET     /clientes/{id}
+PUT     /clientes/{id}
+DELETE  /clientes/{id}
+
+GET     /health
 
 <div align="center">
 
@@ -256,11 +308,8 @@ Docker Compose
 
 </div>
 
----
+🎯 Current Mission
 
-# 🎯 Current Mission
-
-```text
 ┌──[ DIEGO@GITHUB ]─[ ~/development ]──────────────────────────┐
 │                                                              │
 │  $ systemctl status developer                                │
@@ -281,11 +330,8 @@ Docker Compose
 │  STATUS: CONSTANTLY EVOLVING                                 │
 │                                                              │
 └──────────────────────────────────────────────────────────────┘
-```
 
----
-
-# 📊 GitHub Analytics
+📊 GitHub Analytics
 
 <div align="center">
 
@@ -303,9 +349,7 @@ Docker Compose
 
 </div>
 
----
-
-# 📈 Activity Graph
+📈 Activity Graph
 
 <div align="center">
 
@@ -313,9 +357,7 @@ Docker Compose
 
 </div>
 
----
-
-# 🏆 GitHub Trophies
+🏆 GitHub Trophies
 
 <div align="center">
 
@@ -323,9 +365,7 @@ Docker Compose
 
 </div>
 
----
-
-# 🐍 Contribution Protocol
+🐍 Contribution Protocol
 
 <div align="center">
 
@@ -333,9 +373,7 @@ Docker Compose
 
 </div>
 
----
-
-# 🌐 Connect With Me
+🌐 Connect With Me
 
 <div align="center">
 
@@ -349,13 +387,10 @@ Docker Compose
 
 </div>
 
----
-
 <div align="center">
 
-### `> SYSTEM MESSAGE`
+> SYSTEM MESSAGE
 
-```text
 ┌─────────────────────────────────────────────────────┐
 │                                                     │
 │   Thanks for accessing my developer profile.       │
@@ -367,12 +402,11 @@ Docker Compose
 │   SYSTEM STATUS: ONLINE ✓                          │
 │                                                     │
 └─────────────────────────────────────────────────────┘
-```
 
 <br>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:21262D,50:161B22,100:0D1117&section=footer"/>
 
-**© 2026 Diego Santos • Built with code & curiosity**
+© 2026 Diego Santos • Built with code & curiosity
 
 </div>
