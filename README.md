@@ -88,17 +88,19 @@ CODE → LEARN → BUILD → IMPROVE → REPEAT
 
 </div>
 
-## 🚀 Featured Projects
+🚀 Featured Projects
 
-## 🎫 HelpDesk Manager
-Full-stack help desk management system built with FastAPI, React, PostgreSQL, Docker, JWT, Alembic and Pytest.
+🎫 HelpDesk Manager
 
-[View Repository](https://github.com/diegosantos-io/helpdesk-manager)
+Full-stack help desk management system built with FastAPI, React, PostgreSQL, Docker, JWT, Alembic, and Pytest.
 
-## 👥 Client Management System
-Full-stack client management application built with React, FastAPI, PostgreSQL, JWT, Docker and Pytest.
+View Repository
 
-[View Repository](https://github.com/diegosantos-io/sistema-gerenciamento-clientes)
+👥 Client Management System
+
+Full-stack client management application built with React, FastAPI, PostgreSQL, JWT, Docker, and Pytest.
+
+View Repository
 
 🎫 HelpDesk Manager
 
@@ -331,45 +333,20 @@ GET     /health
 
 📊 GitHub Analytics
 
-<div align="center">
+My GitHub profile tracks my development activity, contributions, and project history.
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=diegosantos-io&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=8957E5&text_color=C9D1D9"/>
+View GitHub Activity
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=diegosantos-io&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9"/>
+📈 Development Highlights
 
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=diegosantos-io&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=21262D&ring=58A6FF&fire=FF7B72&currStreakLabel=58A6FF" width="70%"/>
-
-</div>
-
-📈 Activity Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=diegosantos-io&bg_color=0D1117&color=58A6FF&line=8957E5&point=FFFFFF&area=true&hide_border=true" width="100%"/>
-
-</div>
-
-🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=diegosantos-io&theme=onestar&no-frame=true&no-bg=true&margin-w=8&row=1"/>
-
-</div>
-
-🐍 Contribution Protocol
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/diegosantos-io/diegosantos-io/main/dist/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
-
-</div>
+[✓] Full-stack web applications
+[✓] Backend APIs with FastAPI
+[✓] PostgreSQL database integration
+[✓] JWT authentication & authorization
+[✓] Automated testing with Pytest
+[✓] Docker-based development environments
+[✓] Git & GitHub workflows
+[✓] Continuous project-based learning
 
 🌐 Connect With Me
 
