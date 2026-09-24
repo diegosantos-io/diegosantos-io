@@ -88,19 +88,17 @@ CODE → LEARN → BUILD → IMPROVE → REPEAT
 
 </div>
 
-🚀 Featured Projects
+## 🚀 Featured Projects
 
-<div align="center">
+## 🎫 HelpDesk Manager
+Full-stack help desk management system built with FastAPI, React, PostgreSQL, Docker, JWT, Alembic and Pytest.
 
-<a href="https://github.com/diegosantos-io/helpdesk-manager">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=diegosantos-io&repo=helpdesk-manager&theme=github_dark&hide_border=true" />
-</a>
+[View Repository](https://github.com/diegosantos-io/helpdesk-manager)
 
-<a href="https://github.com/diegosantos-io/sistema-gerenciamento-clientes">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=diegosantos-io&repo=sistema-gerenciamento-clientes&theme=github_dark&hide_border=true" />
-</a>
+## 👥 Client Management System
+Full-stack client management application built with React, FastAPI, PostgreSQL, JWT, Docker and Pytest.
 
-</div>
+[View Repository](https://github.com/diegosantos-io/sistema-gerenciamento-clientes)
 
 🎫 HelpDesk Manager
 
