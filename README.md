@@ -88,225 +88,126 @@ CODE → LEARN → BUILD → IMPROVE → REPEAT
 
 </div>
 
-🚀 Featured Projects
+## 🚀 Featured Projects
 
-🎫 HelpDesk Manager
+Here are some of my main full-stack projects, built to practice real-world development, backend architecture, database management, authentication, and software testing.
 
-Full-stack help desk management system built with FastAPI, React, PostgreSQL, Docker, JWT, Alembic, and Pytest.
+---
 
-View Repository
+### 🛒 E-commerce Full Stack
 
-👥 Client Management System
+A full-stack e-commerce application featuring product browsing, shopping cart management, Stripe payment processing, and email notifications.
 
-Full-stack client management application built with React, FastAPI, PostgreSQL, JWT, Docker, and Pytest.
+**🧰 Tech Stack**
 
-View Repository
+- **Frontend:** React, Vite, JavaScript, HTML, CSS
+- **Backend:** Python, FastAPI, SQLAlchemy
+- **Database:** PostgreSQL, Alembic
+- **Authentication:** JWT
+- **Payments:** Stripe Checkout and webhooks
+- **Testing:** Pytest and frontend component tests
+- **Infrastructure:** Docker and Docker Compose
 
-🎫 HelpDesk Manager
+**⚙️ Key Features**
 
-Full-stack help desk management system built with FastAPI, React, PostgreSQL, Docker, JWT, Alembic, and Pytest.
+- [x] User registration and authentication
+- [x] Product catalog with images and pricing
+- [x] Shopping cart and quantity management
+- [x] Order creation and status tracking
+- [x] Stripe Checkout integration
+- [x] Payment webhook processing and idempotency handling
+- [x] Email notifications after payment
+- [x] Password reset workflow
+- [x] PostgreSQL database migrations
+- [x] Automated backend and frontend tests
+- [x] Responsive user interface
 
-The application manages technical support operations through role-based access for users, technicians, and administrators.
+**🧪 Testing**
 
-🧰 Stack
+- 40 backend tests passed in the latest verified run
+- 10 frontend tests passed in the latest verified run
+- Frontend lint and production build passed in the latest verified run
 
-Frontend
-React
-JavaScript
-HTML
-CSS
+<div align="center">
 
-Backend
-Python
-FastAPI
-SQLAlchemy
-Pydantic
+<a href="https://github.com/diegosantos-io/ecommerce-fullstack">
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="View E-commerce Project"/>
+</a>
 
-Database
-PostgreSQL
-Alembic
+</div>
 
-Security
-JWT
-bcrypt
+---
 
-Infrastructure
-Docker
-Docker Compose
+### 🎫 HelpDesk Manager
 
-Testing
-Pytest
+A full-stack help desk management system designed to organize technical support operations through role-based access and ticket workflows.
 
-⚙️ Key Features
+**🧰 Tech Stack**
 
-[✓] JWT authentication
-[✓] Role-based access control
-[✓] User management
-[✓] Account activation and deactivation
-[✓] Ticket creation and tracking
-[✓] Technician assignment
-[✓] Technician ticket handling
-[✓] Ticket resolution
-[✓] Ticket history
-[✓] Administrative ticket transfer
-[✓] Transfer reason tracking
-[✓] Search and filtering
-[✓] Public ticket statistics
-[✓] PostgreSQL persistence
-[✓] Alembic migrations
-[✓] Docker support
-[✓] 29 automated tests
+- **Frontend:** React, JavaScript, HTML, CSS
+- **Backend:** Python, FastAPI, SQLAlchemy, Pydantic
+- **Database:** PostgreSQL, Alembic
+- **Security:** JWT authentication and bcrypt
+- **Infrastructure:** Docker and Docker Compose
+- **Testing:** Pytest
 
-📡 Main API Routes
+**⚙️ Key Features**
 
-POST   /usuarios/
-POST   /usuarios/login
-GET    /usuarios/me
-GET    /usuarios/
-POST   /usuarios/admin
-PUT    /usuarios/{usuario_id}
-DELETE /usuarios/{usuario_id}
-
-POST   /chamados/
-GET    /chamados/
-GET    /chamados/tecnico
-GET    /chamados/publico
-GET    /chamados/{chamado_id}
-POST   /chamados/{chamado_id}/assumir
-POST   /chamados/{chamado_id}/resolver
-GET    /chamados/{chamado_id}/historico
-POST   /chamados/{chamado_id}/transferir
-
-🧪 Testing
-
-The project currently has 29 automated tests passing, covering authentication, users, permissions, tickets, administrative operations, and ticket workflows.
-
-============================= test session =============================
-
-29 passed
-
-============================= STATUS: PASS =============================
-
-🏗️ Architecture
-
-                     ┌──────────────────┐
-                     │      REACT       │
-                     │    Frontend      │
-                     └────────┬─────────┘
-                              │
-                           HTTP / JSON
-                              │
-                              ▼
-                     ┌──────────────────┐
-                     │     FASTAPI      │
-                     │     Backend      │
-                     └────────┬─────────┘
-                              │
-                   ┌──────────┴──────────┐
-                   │                     │
-                   ▼                     ▼
-            ┌─────────────┐       ┌─────────────┐
-            │     JWT     │       │   Services  │
-            │    Auth     │       │  Business   │
-            └─────────────┘       │    Logic    │
-                                  └──────┬──────┘
-                                         │
-                                         ▼
-                                  ┌─────────────┐
-                                  │ SQLAlchemy  │
-                                  └──────┬──────┘
-                                         │
-                                         ▼
-                                  ┌─────────────┐
-                                  │ PostgreSQL  │
-                                  └─────────────┘
+- [x] JWT authentication and role-based access control
+- [x] User management and account activation
+- [x] Ticket creation and tracking
+- [x] Technician assignment and ticket resolution
+- [x] Ticket history
+- [x] Administrative ticket transfers with reason tracking
+- [x] Search and filtering
+- [x] PostgreSQL persistence and database migrations
+- [x] Automated testing
 
 <div align="center">
 
 <a href="https://github.com/diegosantos-io/helpdesk-manager">
-<img src="https://img.shields.io/badge/VIEW%20PROJECT-58A6FF?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="View HelpDesk Manager"/>
 </a>
 
 </div>
 
-👥 Client Management System
+---
 
-Full-stack client management application built with React, Python, FastAPI, and PostgreSQL.
+### 👥 Client Management System
 
-The project evolved from a basic client CRUD API into a complete application with authentication, validation, testing, Docker, and database migrations.
+A full-stack client management application featuring secure authentication, CRUD operations, search, pagination, and data validation.
 
-🧰 Stack
+**🧰 Tech Stack**
 
-Frontend
-React
-JavaScript
-HTML
-CSS
+- **Frontend:** React, JavaScript, HTML, CSS
+- **Backend:** Python, FastAPI, SQLAlchemy, Pydantic
+- **Database:** PostgreSQL, Alembic
+- **Security:** JWT authentication and bcrypt
+- **Infrastructure:** Docker and Docker Compose
+- **Testing:** Pytest
 
-Backend
-Python
-FastAPI
-SQLAlchemy
-Pydantic
+**⚙️ Key Features**
 
-Database
-PostgreSQL
-Alembic
-
-Security
-JWT
-bcrypt
-
-Infrastructure
-Docker
-Docker Compose
-
-Testing
-Pytest
-
-⚙️ Key Features
-
-[✓] User registration
-[✓] JWT authentication
-[✓] Protected routes
-[✓] Password hashing with bcrypt
-[✓] Client creation
-[✓] Client listing
-[✓] Client lookup by ID
-[✓] Client updates
-[✓] Client deletion
-[✓] Search by name, email, and phone
-[✓] Pagination
-[✓] Data validation
-[✓] Centralized error handling
-[✓] Duplicate email prevention
-[✓] Session persistence
-[✓] Responsive interface
-[✓] Swagger documentation
-[✓] Alembic migrations
-[✓] Docker
-[✓] Automated tests
-
-📡 API
-
-POST    /usuarios/
-POST    /usuarios/login
-
-GET     /clientes/
-POST    /clientes/
-GET     /clientes/{id}
-PUT     /clientes/{id}
-DELETE  /clientes/{id}
-
-GET     /health
+- [x] User registration and JWT authentication
+- [x] Protected routes and password hashing
+- [x] Client creation, listing, editing, and deletion
+- [x] Search by name, email, and phone
+- [x] Pagination and data validation
+- [x] Centralized error handling
+- [x] Duplicate email prevention
+- [x] Database migrations
+- [x] Swagger API documentation
+- [x] Automated tests
 
 <div align="center">
 
 <a href="https://github.com/diegosantos-io/sistema-gerenciamento-clientes">
-<img src="https://img.shields.io/badge/VIEW%20PROJECT-58A6FF?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="View Client Management System"/>
 </a>
 
 </div>
+
+---
 
 🎯 Current Mission
 
