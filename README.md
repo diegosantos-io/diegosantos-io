@@ -1,18 +1,8 @@
-<div align="center">
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-<!--                    SYSTEM INITIALIZATION                    -->
-
-<!-- ═══════════════════════════════════════════════════════════ -->
+ <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:05080D,50:0D1117,100:111827&text=DIEGO%20SANTOS&fontSize=58&fontColor=00E5FF&fontAlignY=38&desc=COMPUTER%20SCIENCE%20STUDENT%20%7C%20FULL%20STACK%20DEVELOPER&descAlignY=61&descSize=16&animation=twinkling" width="100%"/>
 
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=850&lines=INITIALIZING+DEVELOPER+PROFILE...;SYSTEM+ONLINE+%E2%9C%93;PYTHON+%7C+FASTAPI+%7C+REACT+%7C+POSTGRESQL;BUILDING+REAL+WORLD+FULL+STACK+PROJECTS...;WELCOME+TO+MY+GITHUB+%F0%9F%91%8B" alt="Typing Animation"/>
-
-<br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=850&lines=INITIALIZING+DEVELOPER+PROFILE...;JAVA+%7C+PYTHON+%7C+TYPESCRIPT;SPRING+BOOT+%7C+ANGULAR+%7C+FASTAPI;BUILDING+FULL+STACK+APPLICATIONS...;WELCOME+TO+MY+GITHUB+%F0%9F%91%8B" alt="Typing Animation"/>
 
 <img src="https://img.shields.io/badge/SYSTEM-ONLINE-00E5FF?style=for-the-badge&logo=github&logoColor=black"/>
 <img src="https://img.shields.io/badge/FOCUS-FULL%20STACK-58A6FF?style=for-the-badge"/>
@@ -22,60 +12,49 @@
 
 > whoami
 
-╔══════════════════════════════════════════════════════════════╗
-║                    DEVELOPER PROFILE                         ║
-╠══════════════════════════════════════════════════════════════╣
-║                                                              ║
-║  Name       : Diego Santos                                   ║
-║  Role       : Computer Science Student | Full Stack          ║
-║               Developer                                       ║
-║  Education  : Computer Science                                ║
-║  Focus      : Backend • Frontend • APIs • Databases           ║
-║  Status     : Building & Learning                             ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
+## 👨‍💻 About Me
 
-🧠 About Me
+Hello! I'm Diego Santos, a Computer Science student and Full Stack Developer focused on building practical applications and solving real-world problems through technology.
 
-Hello! I'm Diego Santos, a Computer Science student and developer focused on building practical, real-world applications.
+I work with different technologies across backend and frontend development, building REST APIs, integrating databases, implementing authentication, developing responsive interfaces, and creating data visualization solutions.
 
-My current stack includes Python, FastAPI, React, JavaScript, HTML, CSS, PostgreSQL, SQLAlchemy, JWT, Docker, and Pytest.
+My current technology stack includes **Java, Spring Boot, Angular, TypeScript, Python, FastAPI, React, JavaScript, PostgreSQL, and SQL.**
 
-I enjoy understanding how applications work end to end — from API design and business logic to databases, authentication, testing, and web interfaces.
+I enjoy learning new technologies by developing complete projects, exploring software architecture, writing automated tests, and continuously improving my development skills.
 
-I learn by building complete projects, improving their architecture, documenting the implementation, and turning what I study into working software.
+**CODE → LEARN → BUILD → IMPROVE → REPEAT**
 
-CODE → LEARN → BUILD → IMPROVE → REPEAT
-
-⚡ Tech Stack
+## ⚡ Tech Stack
 
 <div align="center">
 
-🐍 Backend
+### 💻 Programming Languages
 
-<img src="https://skillicons.dev/icons?i=python,fastapi" />
+<img src="https://skillicons.dev/icons?i=python,java,javascript,typescript,html,css"/>
 
-<br><br>
+### ⚙️ Backend Development
 
-🌐 Frontend
+<img src="https://skillicons.dev/icons?i=fastapi,spring"/>
 
-<img src="https://skillicons.dev/icons?i=html,css,javascript,react" />
+### 🌐 Frontend Development
 
-<br><br>
+<img src="https://skillicons.dev/icons?i=angular,react"/>
 
-🗄️ Database
+### 🗄️ Databases
 
-<img src="https://skillicons.dev/icons?i=postgresql" />
+<img src="https://skillicons.dev/icons?i=postgresql"/>
 
-<br><br>
+### 📊 Data Visualization
 
-🔧 Development Tools
+<img src="https://img.shields.io/badge/Apache%20ECharts-AA344D?style=for-the-badge&logo=apacheecharts&logoColor=white"/>
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,docker" />
+### 🔧 Development Tools
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,docker,maven"/>
 
 </div>
 
-🛠️ Tools & Environment
+## 🛠️ Tools & Environment
 
 <div align="center">
 
@@ -90,7 +69,51 @@ CODE → LEARN → BUILD → IMPROVE → REPEAT
 
 ## 🚀 Featured Projects
 
-Here are some of my main full-stack projects, built to practice real-world development, backend architecture, database management, authentication, and software testing.
+My main projects demonstrate practical experience with full-stack development, backend architecture, database management, authentication, API integrations, data visualization, and automated testing.
+
+---
+
+### 🇧🇷 EconomiaBR — Brazilian Economic Dashboard
+
+A full-stack application developed to monitor and visualize Brazil's main economic indicators through interactive charts, historical data, custom filters, and PDF/CSV reports.
+
+**🧰 Tech Stack**
+
+- **Backend:** Java 21, Spring Boot 4, Maven
+- **Frontend:** Angular 22, TypeScript, HTML, SCSS
+- **Charts:** Apache ECharts
+- **Reports:** jsPDF, jspdf-autotable
+- **Data Sources:** Banco Central do Brasil and IBGE/SIDRA
+- **Testing:** JUnit 5, Mockito, Angular tests
+
+**⚙️ Key Features**
+
+- [x] Interactive economic dashboard
+- [x] IPCA inflation monitoring
+- [x] SELIC interest rate monitoring
+- [x] Brazilian GDP (PIB) visualization
+- [x] USD/BRL exchange rate monitoring
+- [x] Historical data visualization
+- [x] Preset and custom date filters
+- [x] Date interval validation
+- [x] CSV data export
+- [x] PDF report generation
+- [x] Responsive interface
+- [x] Integration with official economic APIs
+
+**🧪 Testing**
+
+- 16 backend tests passed in the latest verified run.
+- 2 frontend tests passed in the latest verified run.
+- Angular production build successful.
+
+<div align="center">
+
+<a href="https://github.com/diegosantos-io/economia-brasil-dashboard">
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-00E5FF?style=for-the-badge&logo=github&logoColor=black" alt="View EconomiaBR"/>
+</a>
+
+</div>
 
 ---
 
@@ -124,9 +147,9 @@ A full-stack e-commerce application featuring product browsing, shopping cart ma
 
 **🧪 Testing**
 
-- 40 backend tests passed in the latest verified run
-- 10 frontend tests passed in the latest verified run
-- Frontend lint and production build passed in the latest verified run
+- 40 backend tests passed in the latest recorded run.
+- 10 frontend tests passed in the latest recorded run.
+- Frontend lint and production build passed in the latest recorded run.
 
 <div align="center">
 
@@ -209,47 +232,59 @@ A full-stack client management application featuring secure authentication, CRUD
 
 ---
 
-🎯 Current Mission
+## 🎯 Current Mission
 
+```text
 ┌──[ DIEGO@GITHUB ]─[ ~/development ]──────────────────────────┐
 │                                                              │
 │  $ systemctl status developer                                │
 │                                                              │
 │  ● developer.service - ACTIVE                                │
 │                                                              │
-│  [✓] Learn Python                                            │
+│  [✓] Learn Python and Java                                   │
 │  [✓] Build REST APIs                                         │
 │  [✓] Work with PostgreSQL                                    │
 │  [✓] Build Full Stack Projects                               │
 │  [✓] Implement Authentication                                │
 │  [✓] Work with Docker                                        │
 │  [✓] Write Automated Tests                                   │
-│  [ ] Deploy Production Applications                          │
-│  [ ] Improve Advanced React                                  │
+│  [✓] Develop with Angular and TypeScript                     │
+│  [ ] Improve Software Architecture                            │
 │  [ ] Build More Production-Ready Systems                     │
 │                                                              │
 │  STATUS: CONSTANTLY EVOLVING                                 │
 │                                                              │
 └──────────────────────────────────────────────────────────────┘
+```
 
-📊 GitHub Analytics
+## 📈 Development Highlights
+
+- [x] Full-stack web application development
+- [x] Backend APIs with Python and FastAPI
+- [x] Backend development with Java and Spring Boot
+- [x] Frontend development with React and Angular
+- [x] TypeScript and JavaScript development
+- [x] PostgreSQL database integration
+- [x] JWT authentication and authorization
+- [x] REST API integration
+- [x] Data visualization with Apache ECharts
+- [x] Automated testing with Pytest, JUnit, and Mockito
+- [x] Docker-based development environments
+- [x] Git and GitHub workflows
+
+## 📊 GitHub Analytics
 
 My GitHub profile tracks my development activity, contributions, and project history.
 
-View GitHub Activity
+<div align="center">
 
-📈 Development Highlights
+<img src="https://github-readme-stats.vercel.app/api?username=diegosantos-io&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
 
-[✓] Full-stack web applications
-[✓] Backend APIs with FastAPI
-[✓] PostgreSQL database integration
-[✓] JWT authentication & authorization
-[✓] Automated testing with Pytest
-[✓] Docker-based development environments
-[✓] Git & GitHub workflows
-[✓] Continuous project-based learning
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=diegosantos-io&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
 
-🌐 Connect With Me
+</div>
+
+## 🌐 Connect With Me
 
 <div align="center">
 
@@ -267,6 +302,7 @@ View GitHub Activity
 
 > SYSTEM MESSAGE
 
+```text
 ┌─────────────────────────────────────────────────────┐
 │                                                     │
 │   Thanks for accessing my developer profile.       │
@@ -278,6 +314,7 @@ View GitHub Activity
 │   SYSTEM STATUS: ONLINE ✓                          │
 │                                                     │
 └─────────────────────────────────────────────────────┘
+```
 
 <br>
 
